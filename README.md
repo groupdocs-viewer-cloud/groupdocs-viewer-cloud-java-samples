@@ -19,7 +19,6 @@ Directory | Description
 
 + **Website:** [www.GroupDocs.cloud](http://www.GroupDocs.cloud)
 + **Product Home:** [GroupDocs.Viewer Cloud SDK for Java](https://products.groupdocs.cloud/Viewer/java)
-+ **Download:** [Download GroupDocs.Viewer Cloud SDK for Java](https://www.nuget.org/packages/GroupDocs.Viewer-Cloud/)
 + **Documentation:** [GroupDocs.Viewer Cloud SDK Documentation](https://docs.groupdocs.cloud/display/Viewercloud/Home)
-+ **Free Support:** [GroupDocs.Viewer Cloud SDK Free Support Forum](https://forum.groupdocs.cloud/c/Viewer)
++ **Free Support:** [GroupDocs.Viewer Cloud SDK Free Support Forum](https://forum.groupdocs.cloud/c/viewer)
 + **Blog:** [GroupDocs.Viewer Cloud SDK Blog](https://blog.groupdocs.cloud/category/Viewer/)
