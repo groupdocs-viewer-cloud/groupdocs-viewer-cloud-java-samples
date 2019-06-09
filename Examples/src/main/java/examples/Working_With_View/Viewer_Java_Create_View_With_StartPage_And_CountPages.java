@@ -10,7 +10,7 @@ public class Viewer_Java_Create_View_With_StartPage_And_CountPages {
 
 	public static void main(String[] args) {
 
-		ViewerApi apiInstance = new ViewerApi(Utils.AppSID, Utils.AppKey);
+		ViewApi apiInstance = new ViewApi(Utils.AppSID, Utils.AppKey);
 		try {
 
 			ViewOptions viewOptions = new ViewOptions();
@@ -34,7 +34,7 @@ public class Viewer_Java_Create_View_With_StartPage_And_CountPages {
 			System.out.println("Expected response type is ViewResult: " + response.getPages().size());
 
 		} catch (ApiException e) {
-			System.err.println("Exception while calling ViewerApi:");
+			System.err.println("Exception while calling ViewApi:");
 			e.printStackTrace();
 		}
 	}

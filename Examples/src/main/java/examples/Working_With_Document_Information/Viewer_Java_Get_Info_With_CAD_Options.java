@@ -10,7 +10,7 @@ public class Viewer_Java_Get_Info_With_CAD_Options {
 
 	public static void main(String[] args) {
 
-		ViewerApi apiInstance = new ViewerApi(Utils.AppSID, Utils.AppKey);
+		InfoApi apiInstance = new InfoApi(Utils.AppSID, Utils.AppKey);
 		try {
 
 			ViewOptions viewOptions = new ViewOptions();
@@ -37,7 +37,7 @@ public class Viewer_Java_Get_Info_With_CAD_Options {
 			System.out.println("Expected response type is InfoResult: " + response.getPages().size());
 
 		} catch (ApiException e) {
-			System.err.println("Exception while calling ViewerApi:");
+			System.err.println("Exception while calling InfoApi:");
 			e.printStackTrace();
 		}
 	}

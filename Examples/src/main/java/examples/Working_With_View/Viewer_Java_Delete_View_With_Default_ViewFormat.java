@@ -10,7 +10,7 @@ public class Viewer_Java_Delete_View_With_Default_ViewFormat {
 
 	public static void main(String[] args) {
 
-		ViewerApi apiInstance = new ViewerApi(Utils.AppSID, Utils.AppKey);
+		ViewApi apiInstance = new ViewApi(Utils.AppSID, Utils.AppKey);
 		try {
 
 			DeleteViewOptions viewOptions = new DeleteViewOptions();
@@ -28,7 +28,7 @@ public class Viewer_Java_Delete_View_With_Default_ViewFormat {
 			System.out.println("Expected response type is Void: View deleted with default View Format.");
 
 		} catch (ApiException e) {
-			System.err.println("Exception while calling ViewerApi:");
+			System.err.println("Exception while calling ViewApi:");
 			e.printStackTrace();
 		}
 	}
