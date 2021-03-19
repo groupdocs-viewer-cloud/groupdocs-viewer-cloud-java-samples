@@ -2,7 +2,6 @@ package examples.BasicUsage.PdfViewer;
 
 import com.groupdocs.cloud.viewer.client.*;
 import com.groupdocs.cloud.viewer.model.*;
-import com.groupdocs.cloud.viewer.model.PdfOptions.PermissionsEnum;
 import com.groupdocs.cloud.viewer.model.ViewOptions.ViewFormatEnum;
 import com.groupdocs.cloud.viewer.model.requests.*;
 import com.groupdocs.cloud.viewer.api.*;
@@ -24,7 +23,7 @@ public class PdfViewerProtectPdf {
             viewOptions.setFileInfo(fileInfo);
             viewOptions.setViewFormat(ViewFormatEnum.PDF);
             PdfOptions renderOptions = new PdfOptions();
-            renderOptions.setPermissions(PermissionsEnum.DENYMODIFICATION);
+            renderOptions.addPermissionsItem("DenyModification");
             renderOptions.setPermissionsPassword("p123");
             renderOptions.setDocumentOpenPassword("o123");
             viewOptions.setRenderOptions(renderOptions);
