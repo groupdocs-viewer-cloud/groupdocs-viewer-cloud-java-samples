@@ -14,6 +14,10 @@ import examples.AdvancedUsage.RenderingOptionsByFileType.RenderingOutlookDataFil
 import examples.AdvancedUsage.RenderingOptionsByFileType.RenderingPdfDocuments.*;
 import examples.AdvancedUsage.RenderingOptionsByFileType.RenderingSpreadsheets.*;
 import examples.AdvancedUsage.RenderingOptionsByFileType.RenderingWordProcessingDocuments.*;
+import examples.AdvancedUsage.RenderingOptionsByFileType.RenderingLotusNotesDatabase.*;
+import examples.AdvancedUsage.RenderingOptionsByFileType.RenderingTextFiles.*;
+import examples.AdvancedUsage.RenderingOptionsByFileType.RenderingVisioDocuments.*;
+
 
 public class RunExamples {
 
@@ -81,6 +85,12 @@ public class RunExamples {
 		SkipRenderingOfEmptyRows.main(args);
 		SplitWorksheetsIntoPages.main(args);
 		RenderTrackedChanges.main(args);		
+
+		SpecifyMaxCharsAndRows.main(args);
+		RenderVisioDocumentFigures.main(args);
+		FilterMailStorage.main(args);
+		HtmlViewerLimitImageSize.main(args);
+		HtmlViewerOptimizeForPrinting.main(args);
 
 		System.out.println("Completed");
 	}	
