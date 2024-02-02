@@ -23,7 +23,10 @@ public class PdfViewerAdjustJpgQuality {
             viewOptions.setFileInfo(fileInfo);
             viewOptions.setViewFormat(ViewFormatEnum.PDF);
             PdfOptions renderOptions = new PdfOptions();
-            renderOptions.setJpgQuality(50);
+			PdfOptimizationOptions pdfOptimizationOptions = new PdfOptimizationOptions();
+			pdfOptimizationOptions.setCompressImages(true);
+			pdfOptimizationOptions.setImageQuality(80);
+			renderOptions.setPdfOptimizationOptions(pdfOptimizationOptions);
             viewOptions.setRenderOptions(renderOptions);
 
 			ViewResult response = apiInstance.createView(new CreateViewRequest(viewOptions));
