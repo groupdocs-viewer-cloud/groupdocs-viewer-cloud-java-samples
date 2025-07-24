@@ -14,7 +14,7 @@
 	<dependency>
     	<groupId>com.groupdocs</groupId>
     	<artifactId>groupdocs-viewer-cloud</artifactId>
-    	<version>25.4</version>
+    	<version>25.7</version>
     	<scope>compile</scope>
 	</dependency>
   </dependencies>
